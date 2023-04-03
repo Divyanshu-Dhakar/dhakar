@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
 import './Navbar.css';
-import {AiOutlineClose,AiOutlineMenu} from 'react-icons/ai' 
 function Navbar() {
   const [showbutton,setShowButoon]=useState(false);
   return (
